@@ -94,10 +94,12 @@ body {
 /* Navbar section */
   .navbar {
     background-color: #234944;
-    height: 64px;
+    height: 60px;
     padding: 10px 0;
     z-index: 800;
     color: #EABF36;
+    position: fixed;
+    width: 100%;
   }
   
   .navbar-brand img {
@@ -201,13 +203,14 @@ body {
   .left-text {
     position: relative;
     color: #fff8e9;
-    font-size: 17px !important;
+    font-size: 2rem !important;
     font-weight: 650;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    padding-top: 30%;   
     flex: 1;
     
   }
@@ -247,7 +250,6 @@ body {
       font-size: 8vh;
       text-align: center;
       padding: 3rem 0;
-      margin-bottom: auto;
     }
 
 /* About us Section */
@@ -283,20 +285,21 @@ body {
   line-height: 1.5; /* Adjust line height for readability */
   margin: 0;
   text-align: center;
+  
 }
 
 /* Vertical lines before and after the paragraph */
   .pipe::after {
     content: "";
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 50%;
     bottom: 0;
     background: #88632b;
-    height: 10vh;
+    height: 8vh;
     width: 1px;
     transform: translate(-50%);
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 @media (max-width: 768px) {
   .about-us {
@@ -750,6 +753,7 @@ body {
 .step-description {
   color: #666;
   font-size: 16px;
+  text-align: justify;
 }
 
 .icon {

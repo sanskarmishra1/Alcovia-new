@@ -123,7 +123,7 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item">
-                  <a class="nav-link out" href="{{config('app.baseURL')}}/index">Home</a>
+                  <a class="nav-link out" href="{{config('app.baseURL')}}/">Home</a>
                   <hr>
               </li>
               <li class="nav-item">
@@ -290,8 +290,6 @@
           </div>
   
           <div class="col-md-3">
-            <h5 class="text-warning"  >Download Now</h5>
-            <a href="" target="_blank" data-toggle="tooltip" data-placement="top" title="Click to begin Download"><img src="assets/download.png" alt="Google Play">
           </div>
         </div>
         <hr>

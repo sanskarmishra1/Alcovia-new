@@ -121,7 +121,7 @@
       <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1">
             <li class="nav-item out">
-                <a class="nav-link" href="{{config('app.baseURL')}}/index">Home</a>
+                <a class="nav-link" href="{{config('app.baseURL')}}/">Home</a>
                 <hr>
             </li>
               <li class="nav-item out">
@@ -153,7 +153,7 @@
           <div class="col-md-4 mb-4">
               <div class="step out">
                   <i class="fas fa-user-edit step-icon"></i>
-                  <h4 class="step-title">Step 1: After Workshop</h4>
+                  <h4 class="step-title">Step 1: Career Exploration</h4>
                   <p class="step-description">Students express their interest in joining Alcovia after attending our insightful workshops, marking the first step toward their personalized journey.</p>
               </div>
           </div>
@@ -301,8 +301,6 @@
           </div>
   
           <div class="col-md-3">
-            <h5 class="text-warning"  >Download Now</h5>
-            <a href="" target="_blank" data-toggle="tooltip" data-placement="top" title="Click to begin Download"><img src="assets/download.png" alt="Google Play">
           </div>
         </div>
         <hr>

@@ -88,14 +88,14 @@
     <div class="container">
       <h2 class="text-center">Why Alcovia? Because Your Future Deserves More.</h2>
         <div class="content text-center">
-            <div class="wcontainer gap-4">
-              <p>
+            <div class="wcontainer">
+              <p class="pipe ptext">
               <b>More than Mentorship:</b> We don’t just guide you—we awaken the power within you to forge your own path.
               </p>
-              <p>
+              <p class="pipe ptext mt-3">
               <b>More than Academics:</b> We don’t just teach—you gain the skills and mindset to thrive in an ever-evolving world.
               </p>
-              <p>
+              <p class="ptext mt-4">
               <b>More than Success</b>: We don’t just celebrate achievements—we cultivate changemakers who leave a lasting impact.
               </p>
             </div>
@@ -245,7 +245,7 @@
         <div class="col-md-4 mb-4">
             <div class="step">
                 <i class="fas fa-user-edit step-icon"></i>
-                <h4 class="step-title">Step 1: After Workshop</h4>
+                <h4 class="step-title">Step 1: Career Exploration</h4>
                 <p class="step-description">Students express their interest in joining Alcovia after attending our insightful workshops, marking the first step toward their personalized journey.</p>
             </div>
         </div>
@@ -261,7 +261,7 @@
             <div class="step">
                 <i class="fas fa-chalkboard-teacher step-icon"></i>
                 <h4 class="step-title">Step 3: Parent-Child Meeting</h4>
-                <p class="step-description">A meaningful discussion with both parents and the student ensures alignment on goals and introduces our personalized approach to nurturing the student’s growth.</p>
+                <p class="step-description text-justify">A meaningful discussion with both parents and the student ensures alignment on goals and introduces our personalized approach to nurturing the student’s growth.</p>
             </div>
         </div>
     </div>
@@ -330,8 +330,6 @@
       </div>
 
         <div class="col-md-3">
-          <h5 class="text-warning"  >Download Now</h5>
-          <a href="" target="_blank" data-toggle="tooltip" data-placement="top" title="Click to begin Download"><img src="assets/download.png" alt="Google Play" class="img-fluid">
         </div>
     </div>
     <hr>

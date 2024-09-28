@@ -59,7 +59,7 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item">
-                  <a class="nav-link out" href="{{config('app.b aseURL')}}/index">Home</a>
+                  <a class="nav-link out" href="{{config('app.baseURL')}}/">Home</a>
                   <hr>
               </li>
                 <li class="nav-item">
@@ -286,24 +286,6 @@
   </div>
 </section>
 
-<!-- school collaboration -->
-<section class="school-collaboration py-5 pb-0 text-center">
-  <div class="container">
-    <h2>School collaboration</h2>
-    <div class="logos">
-      <div class="logos-slide">
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-        <a href="https://afscn.in/" target="_blank"><img src="assets/afs.png"></a>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Footer Section -->
 <footer class="footer text-white pt-5">
@@ -367,8 +349,6 @@
         </div>
 
           <div class="col-md-3">
-            <h5 class="text-warning"  >Download Now</h5>
-            <a href="" target="_blank" data-toggle="tooltip" data-placement="top" title="Click to begin Download"><img src="assets/download.png" alt="Google Play" class="img-fluid">
           </div>
       </div>
       <hr>
