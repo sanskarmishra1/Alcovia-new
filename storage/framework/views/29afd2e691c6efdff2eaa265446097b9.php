@@ -141,9 +141,12 @@
     <video autoplay muted loop>
       <source src="assets/aboutvideo.mp4" type="video/mp4">
     </video>
+    <div class="overlay row h-100">
+        <div class="col-md-4 left-text hidden">
+        Don't play it safe. Join the future leaders who are already getting ahead with personalized guidance.
+        </div>
+      </div> 
   </section>
-
-<h3>Don't play it safe. Join the future leaders who are already getting ahead with personalized guidance.</h3>
 
 <!-- Application Process -->
 <section class="application">
